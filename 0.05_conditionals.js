@@ -23,5 +23,23 @@ if (age>= 5 && age<15){
 }else {console.log("I am done with conditinals")
 }
 
-//FizzBuzz
-var fizzBuzz=
+//FizzBuzz 
+//write prog than runs numbers 1 to 100
+// for multiples of three print fizz
+
+
+
+
+var num = 1;
+
+while(num<101){
+
+	console.log(num);
+
+	if (num % 3 ===0){
+		console.log("fizz");
+	} else if (num % 5 ===0) {
+		console.log("buzz");
+	} else if
+	num=num+1; //wonky expression
+}
