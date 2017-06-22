@@ -24,6 +24,7 @@ console.log(name=="kay");
  console.log(6==="6");
 
 
+
  /*if statements
 
  if (Boolean expression){
@@ -71,7 +72,24 @@ if (age>=35){
 	console.log("you are out of luck!");
 }
 
+// FizzBuzz
 
+for (var counter=0; counter<=100; counter++){
+	console.log(counter)
+};
+
+for (var counter=0; counter<=100; counter++){
+	if (counter%3===0 && counter%5 ===0){
+		console.log(counter+" FizzBuzz");
+	}
+	else if (counter%5===0){
+		console.log(counter+" Buzz");
+	}
+	else if (counter%3===0){
+		console.log(counter +" Fizz");
+	}
+
+};
 
 
 
